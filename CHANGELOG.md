@@ -1,3 +1,6 @@
+# 8.1.1
+After forking from 8.1.0, bumped react version to 19
+
 # 8.0.0
 - Added safety check to `onProgress` hook in `PdfLoader` to prevent potential races and resets to loading state after a PDF has been loaded in. #1 Thank you @orausch ❤.
 - Removed `MouseSelectionRenderer` and moved any necessary logic into `MouseSelection`.

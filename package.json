@@ -1,18 +1,14 @@
 {
-  "name": "react-pdf-highlighter-extended",
+  "name": "@theuers/react-pdf-highlighter-extended",
   "type": "module",
-  "version": "8.1.0",
+  "version": "8.1.1",
   "description": "Set of modern React components for PDF highlighting",
-  "author": "Daniel Arnould <daniel.s.arnould@gmail.com>",
+  "author": "Sebastian Theuermann <stheuerman@gmail.com>",
   "license": "MIT",
   "contributors": [
     {
-      "name": "Daniel Arnould",
-      "email": "daniel.s.arnould@gmail.com"
-    },
-    {
-      "name": "Artem Tyurin",
-      "email": "artem.tyurin@gmail.com"
+      "name": "Sebastian Theuermann",
+      "email": "stheuerman@gmail.com"
     }
   ],
   "keywords": [
@@ -38,12 +34,12 @@
     "clean": "rm -rf dist public node_modules package-lock.json"
   },
   "peerDependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "dependencies": {
     "lodash.debounce": "^4.0.8",
-    "pdfjs-dist": "^4.4.168",
+    "pdfjs-dist": "4.4.168",
     "react-rnd": "^10.4.11"
   },
   "repository": {
@@ -56,12 +52,12 @@
   "devDependencies": {
     "@types/lodash.debounce": "^4.0.9",
     "@types/node": "^20.14.9",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
     "@vitejs/plugin-react": "^4.3.1",
     "typedoc": "latest",
     "typedoc-theme-category-nav": "latest",
     "typescript": "^5.3.2",
-    "vite": "^5.3.3"
+    "vite": "^6.3.5"
   }
 }
